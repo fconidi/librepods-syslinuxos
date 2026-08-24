@@ -51,7 +51,7 @@ systemctl --user restart wireplumber
 Built from [librepods-org/librepods](https://github.com/librepods-org/librepods) `main` branch on SysLinuxOS 13 (Debian 13, Qt 6.8.2, BlueZ 5.82).
 
 ```bash
-sudo apt install cmake pkg-config libssl-dev libpulse-dev qt6-base-dev qt6-connectivity-dev qt6-declarative-dev qt6-multimedia-dev qttools6-dev-tools
+sudo apt install cmake pkg-config libssl-dev libpulse-dev qt6-base-dev qt6-connectivity-dev qt6-declarative-dev qt6-multimedia-dev qt6-tools-dev qt6-tools-dev-tools
 git clone --depth=1 https://github.com/librepods-org/librepods.git
 mkdir -p librepods/linux/build && cd librepods/linux/build
 cmake .. && make -j$(nproc)
