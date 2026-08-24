@@ -24,7 +24,7 @@ sudo apt update && sudo apt install librepods
 Download from [Releases](https://github.com/fconidi/librepods-syslinuxos/releases) and install:
 
 ```bash
-sudo apt install ./librepods_0.1.0_amd64.deb
+sudo apt install ./librepods_0.1.1_amd64.deb
 ```
 
 ## AirPods Pro 3 pairing on Linux
