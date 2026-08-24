@@ -2,7 +2,11 @@
 
 Prebuilt `.deb` package of [LibrePods](https://github.com/librepods-org/librepods) for **SysLinuxOS 13 / Debian 13 (trixie)** — amd64.
 
-LibrePods brings AirPods features to Linux: noise control (ANC/Transparency/Off), battery monitoring, ear detection (auto play/pause), and conversational awareness.
+LibrePods brings AirPods features to Linux: noise control (ANC/Transparency/Off/Adaptive), battery monitoring, ear detection (auto play/pause), conversational awareness, and more.
+
+| Main | Settings |
+|------|----------|
+| ![LibrePods main window](librepods.png) | ![LibrePods settings](librepods-settings.png) |
 
 ## Install
 
@@ -52,6 +56,22 @@ git clone --depth=1 https://github.com/librepods-org/librepods.git
 mkdir -p librepods/linux/build && cd librepods/linux/build
 cmake .. && make -j$(nproc)
 ```
+
+## License
+
+**Full feature list:**
+- Noise modes: Off / Noise Cancellation / Transparency / Adaptive
+- Battery % per earbud (L/R) and case
+- Ear detection — auto pause when removed (configurable: one or both)
+- Conversational Awareness toggle
+- One Bud ANC Mode
+- Cross-Device Connectivity with Android
+- Auto-Start on Login
+- System Notifications
+- Rename device
+- Change Phone MAC
+- Magic Cloud Keys QR
+- CLI control via `librepods-ctl`
 
 ## License
 
